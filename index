@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perlombaaan Kehidupan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Nunito', sans-serif;
+            background: #f0f2f5;
+            color: #333;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 800px;
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .author {
+            text-align: center;
+            font-style: italic;
+            color: #888;
+            margin-bottom: 30px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            line-height: 1.8;
+            text-align: justify;
+            font-size: 1.1rem;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Perlombaaan Kehidupan</h1>
+        <div class="author">Petra Antonio Gerald</div>
+
+        <p>Gelap, sunyi, hanya suaraku sendiri yang terdengar. Tapi tak ada waktu untuk berhenti. Ini adalah perlombaan yang menentukan segalanya.</p>
+
+        <p>Aku bergegas, meluncur secepat mungkin, berdesakan dengan yang lain. Tak ada jalan kembali, hanya satu tujuan yang harus kucapai. Kami semua berasal dari tempat yang sama, memulai perjalanan dengan kecepatan yang berbeda, tetapi semua dengan tekad yang sama, menjadi yang pertama.</p>
+
+        <p>Jalan yang kutempuh penuh rintangan. Beberapa tersesat, terbawa arus ke jalur yang buntu. Ada yang kelelahan, menyerah sebelum mencapai akhir. Hanya mereka yang paling kuat, paling cepat dan paling tangguh yang bisa bertahan dalam perjalanan ini.</p>
+
+        <p>Di tengah perlombaan, aku tak mau menyerah. Sementara yang lain melambat, aku masih menjaga kecepatanku. Ini adalah momen yang ditakdirkan dan aku tidak akan menyianyiakannya.</p>
+
+        <p>Akhirnya, diujung perjalanan, aku melihatnya tujuan akhir, gerbang menuju kehidupan. Segala perjuangan, usaha dan pengorbanan akhirnya terbayar. Di saat yang sama, pintu di belakangku tertutup, mengakhiri perlombaan bagi yang lain. Kini hanya aku yang tersisa, pemenang sejati dari perjalanan yang penuh tantangan ini.</p>
+
+        <p>Dari sana, sebuah kehidupan baru pun dimulai.</p>
+    </div>
+</body>
+</html>
